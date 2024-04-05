@@ -1,10 +1,9 @@
 ---
-title: Example article title
+title: readme_to_devto README.md
 published: false
-description: A simple test article
-tags: 'productivity, beginners, test'
+description: (Optional) description
+tags: 'optional, test-tag'
 cover_image: ./assets/cat.jpg
-canonical_url: null
 ---
 
 > 
