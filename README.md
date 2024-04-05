@@ -69,6 +69,8 @@ That is it. Commit the changes to your repo, you should see the running of the w
 
 If the workflow is successful, a new draft post will be created on Dev Community (`dev.to`)
 
+![workflow.png](assets/workflow.png)
+
 Be reminder that is the is the first time successful running of the workflow, `id` will be created and `README.md` will be modified. Pull the change.
 
 
