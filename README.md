@@ -1,9 +1,10 @@
 ---
 title: GitHub Repository README to DEV Community Post
-description: Setup GitHub repo for automatically posting README to DEV Community  
+description: Setup GitHub repo for automatically posting README to DEV Community
 tags: 'github, readme, devto'
 cover_image: ./assets/cat.jpg
 published: false
+id: 1812457
 ---
 
 
