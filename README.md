@@ -2,7 +2,7 @@
 title: readme_to_devto README.md
 published: false
 description: (Optional) description
-tags: 'optional, test-tag'
+tags: 'optional, tag'
 cover_image: ./assets/cat.jpg
 ---
 
@@ -19,9 +19,14 @@ Add some text here and there!
 
 ***
 
-> 
-> * Based on: https://github.com/sinedied/publish-devto 
-> * This content taken from: https://github.com/sinedied/devto-github-template/tree/main/posts
-> * GitHub repo `Settings` -- `Actions | General` `Workflow permissions` set to `Read and write permissions`
-> * GitHub repo `Settings` -- `Secret and variables | Actions` new `Repository secrets` `DEVTO_TOKEN` 
+Notes:
+* Based on: https://github.com/sinedied/publish-devto 
+* This content taken from: https://github.com/sinedied/devto-github-template/tree/main/posts
+* GitHub repo `Settings` -- `Actions | General` `Workflow permissions` set to `Read and write permissions`
+* GitHub repo `Settings` -- `Secret and variables | Actions` new `Repository secrets` `DEVTO_TOKEN` 
+* Seems only work for public repo
+* The first time this `README.md` will be modified adding 
+
+
+
 
