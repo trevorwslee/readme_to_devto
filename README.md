@@ -47,7 +47,7 @@ Secondly, setup `DEVTO_TOKEN` secret (the API token you acquired in previous ste
 
 Firstly, you will need `.github/workflows/publish.yml` that you can download [here](https://github.com/trevorwslee/readme_to_devto/blob/main/.github/workflows/publish.yml), which is one that I tailored from the one that comes with the `publish-devto` project
 
-Secondly, your `README.md` will need to have *headers* (starting from 1st line) like
+Secondly, your `README.md` will need to have "headers" (starting from 1st line) like
 
 ```
 ---
@@ -79,7 +79,7 @@ Commit and push the changes to GitHub, you should see the running of the workflo
 
 If the workflow is successful, a new draft post will be created on Dev Community (`dev.to`)
 
-***Be reminded that the first time successful running of the workflow, `id` will be automatically added to the *headers* of `README.md`.*** Pull for the addition.
+***Be reminded that the first time successful running of the workflow, `id` will be automatically added to the "headers" of `README.md`.*** Pull for the addition.
 
 
 ***Hope this helps!***
