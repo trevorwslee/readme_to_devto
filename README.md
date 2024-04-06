@@ -5,6 +5,7 @@ tags: 'github, readme, devto'
 cover_image: ./assets/cat.jpg
 published: true
 id: 1812457
+date: '2024-04-06T02:03:37Z'
 ---
 
 
