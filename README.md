@@ -26,7 +26,7 @@ Here I will simply show how I setup GitHub repo for automatically posting README
 
 As expected, you will need some "access token" from `dev.to` for the workflow to work.
 
-Indeed, you need get an API token from `dev.to` -- `Settings` -> `Extension` -> `DEV Community API Keys`
+Indeed, you need to get an API token from `dev.to` -- `Settings` -> `Extension` -> `DEV Community API Keys`
 
 ![dev_api_key.png](assets/dev_api_key.png)
 
