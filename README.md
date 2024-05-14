@@ -48,6 +48,17 @@ Secondly, setup `DEVTO_TOKEN` secret (the API token you acquired in previous ste
 
 Firstly, you will need `.github/workflows/publish.yml` that you can download [here](https://github.com/trevorwslee/readme_to_devto/blob/main/.github/workflows/publish.yml), which is one that I tailored from the one that comes with the `publish-devto` project
 
+And ***importantly***, make sure that the `branch` specified in `publish.yml` is indeed the actual branch you want the action be triggered on
+```
+name: publish
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+```
+
 Secondly, your `README.md` will need to have "headers" (starting from 1st line) like
 
 ```
