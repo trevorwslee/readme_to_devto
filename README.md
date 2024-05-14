@@ -50,13 +50,17 @@ Firstly, you will need `.github/workflows/publish.yml` that you can download [he
 
 And ***importantly***, make sure that the `branch` specified in `publish.yml` is indeed the actual branch you want the action be triggered on
 ```
+...
 name: publish
 on:
   push:
     branches: [main]
   pull_request:
     branches: [main]
-
+...
+        # (Optional) The git branch to use. Default is 'main'.
+        branch: main
+...
 ```
 
 Secondly, your `README.md` will need to have "headers" (starting from 1st line) like
